@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/etNombreR"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etCorreoR"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/etNombreR"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/etContraseniaR"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/etCorreoR"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Contraseña" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etContraseniaR"
+        android:layout_centerHorizontal="true"
+        android:text="Registarte" />
+
+    <TextView
+        android:id="@+id/tvRegistro"
+        android:layout_width="wrap_content"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:text="Registro" />
+</RelativeLayout>

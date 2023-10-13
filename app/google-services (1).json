@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "146958070053",
+    "firebase_url": "https://apptareas-2325d-default-rtdb.firebaseio.com",
+    "project_id": "apptareas-2325d",
+    "storage_bucket": "apptareas-2325d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146958070053:android:51cb84d5d1e53f3759aacc",
+        "android_client_info": {
+          "package_name": "com.example.listadetareas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0v64LsOGJ2tsfi2oUaWKFsy_LFQLoVbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146958070053:android:c88d02a5512775b159aacc",
+        "android_client_info": {
+          "package_name": "com.example.loguin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0v64LsOGJ2tsfi2oUaWKFsy_LFQLoVbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

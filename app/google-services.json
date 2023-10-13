@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "264312734383",
+    "firebase_url": "https://apploguin-6c1b8-default-rtdb.firebaseio.com",
+    "project_id": "apploguin-6c1b8",
+    "storage_bucket": "apploguin-6c1b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264312734383:android:14ce57290962387f3a8a5a",
+        "android_client_info": {
+          "package_name": "com.example.loguin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtWmt5Kh5PxnVfVdg6Xa9-telFyPFVkyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
