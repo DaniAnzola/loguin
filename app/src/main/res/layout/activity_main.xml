@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
 
+
     <TextView
         android:id="@+id/tvTitulo"
         android:layout_centerHorizontal="true"
@@ -50,8 +51,21 @@
     <TextView
         android:id="@+id/tvRegistro"
         android:layout_width="wrap_content"
-        android:layout_below="@+id/etContrasenia"
+        android:layout_below="@+id/tvOlvidar"
+        android:layout_marginTop="50dp"
         android:layout_centerHorizontal="true"
         android:layout_height="wrap_content"
         android:text="Resgistrate aqui" />
+
+    <TextView
+        android:id="@+id/tvOlvidar"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp"
+        android:layout_below="@+id/etContrasenia"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="Recupera tu Contraseña" />
+
+
 </RelativeLayout>
