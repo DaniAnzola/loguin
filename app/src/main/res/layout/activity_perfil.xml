@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityPerfil">
+
+    <TextView
+        android:id="@+id/tvPerfil"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Perfil" />
+
+    <EditText
+        android:id="@+id/etNombreP"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/ivFoto"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nombre" />
+
+    <ImageView
+        android:id="@+id/ivFoto"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/tvPerfil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+      />
+
+    <EditText
+        android:id="@+id/etApellidoP"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/etNombreP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/etCorreoP"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/etApellidoP"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/etNumeroP"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/etCorreoP"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Numero" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/etNumeroP"
+        android:layout_height="match_parent"
+        android:layout_marginRight="60dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/btnInv"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/btnEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Editar" />
+    </LinearLayout>
+</RelativeLayout>

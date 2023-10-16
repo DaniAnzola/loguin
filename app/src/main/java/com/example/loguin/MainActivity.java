@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()){
-                            Intent i=new Intent(MainActivity.this, Home.class);
+                            Intent i=new Intent(MainActivity.this, ActivityPerfil.class);
                             startActivity(i);
                         }else{
                             Toast.makeText(MainActivity.this,"Revisa los campos introducidos",Toast.LENGTH_SHORT).show();

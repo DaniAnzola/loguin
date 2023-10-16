@@ -35,11 +35,31 @@
         android:inputType="textPassword"
         android:hint="Contraseña" />
 
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/etContraseniaR"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etApellido"
+        android:layout_centerInParent="true"
+        android:ems="10"
+        android:hint="Numero"
+        android:inputType="text" />
+
     <Button
         android:id="@+id/btnRegistrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etContraseniaR"
+        android:layout_below="@+id/etNumero"
         android:layout_centerHorizontal="true"
         android:text="Registarte" />
 

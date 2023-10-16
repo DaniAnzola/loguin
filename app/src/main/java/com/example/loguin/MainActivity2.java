@@ -24,10 +24,10 @@ public class MainActivity2 extends AppCompatActivity {
     private DatabaseReference mRef;
     private FirebaseUser fbUser;
 
-    private EditText etCorreoR, etContraseniaR, etNombreR;
+    private EditText etCorreoR, etContraseniaR, etNombreR,etApellido,etNumero;;
     private Button btnRegistrar;
 
-    private String nombre, correo, contrasenia;
+    private String nombre, correo, contrasenia,apellido,numero;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,16 +39,20 @@ public class MainActivity2 extends AppCompatActivity {
         etCorreoR = (EditText) findViewById(R.id.etCorreoR);
         etContraseniaR = (EditText) findViewById(R.id.etContraseniaR);
         etNombreR = (EditText) findViewById(R.id.etNombreR);
+        etApellido = (EditText) findViewById(R.id.etApellido);
+        etNumero = (EditText) findViewById(R.id.etNumero);
 
         btnRegistrar = (Button) findViewById(R.id.btnRegistrar);
         btnRegistrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 nombre = etNombreR.getText().toString().trim();
+                apellido = etApellido.getText().toString().trim();
+                numero = etNumero.getText().toString().trim();
                 correo = etCorreoR.getText().toString().trim();
                 contrasenia = etContraseniaR.getText().toString().trim();
 
-                Usuario u = new Usuario(nombre, correo);
+                Usuario u = new Usuario(nombre, apellido,correo,numero);
                 mAuth.createUserWithEmailAndPassword(correo, contrasenia).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
